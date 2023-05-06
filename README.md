@@ -20,6 +20,8 @@
 	<a href="#%EF%B8%8F-usage">Usage</a>
 	<span> · </span>
 	<a href="#-testing">Testing</a>
+	<span> · </span>
+	<a href="#-VERSIONS">Testing</a>
 </h3>
 
 ---
@@ -34,7 +36,7 @@
 	on manipulating files for data management and persistence.
 	This project consists of coding a function that returns one line at a time from a text file.
 
-For more detailed information, look at the [**subject of this project**](https://github.com/jblackiex/42_get_next_line/get_next_line_subject.pdf).
+For more detailed information, look at the [**subject of this project**](https://github.com/jblackiex/42_get_next_line/blob/main/get_next_line_subject.pdf).
 
 
 ## 🛠️ Usage
@@ -58,11 +60,17 @@ and, when compiling your code, add the source files and the required flag:
 ```shell
 get_next_line.c get_next_line_utils.c -D BUFFER_SIZE=<size>
 ```
+## 📚 VERSIONS
+
+--- > BUFFER_SIZE version: [**read_BUFFER_SIZE_bytes**](https://github.com/jblackiex/42_get_next_line/tree/main/read_BUFFER_SIZE_bytes).
+
+--- > Instead of BUFFER_SIZE try [**read_1_byte**](https://github.com/jblackiex/42_get_next_line/tree/main/read_1_byte) version.
+
 
 ## 📋 Testing
 
 Manual testing:
-  ---> add main function inside get_next_line.c and open with OPEN function test.txt file
+  ---> add main function inside get_next_line.c and open test.txt file with OPEN function
 ```shell
 gcc -Wall -Werror -Wextra -D BUFFER_SIZE=xx get_next_line.c get_next_line_utils.c && ./a.out
 ```
