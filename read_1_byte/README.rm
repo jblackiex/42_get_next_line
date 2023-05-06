@@ -1,2 +1,0 @@
-⚙️ This version reads only one byte at a time ⚙️
------> if you want you can try also  --- > BUFFER_SIZE version: [**read_BUFFER_SIZE_bytes**](https://github.com/jblackiex/42_get_next_line/tree/main/read_BUFFER_SIZE_bytes).
